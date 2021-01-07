@@ -1,0 +1,9 @@
+server:
+  port: 8020
+spring:
+  application:
+    name: itmuch-admin
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 39.102.66.189:8848
