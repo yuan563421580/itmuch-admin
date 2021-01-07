@@ -45,6 +45,15 @@ public class ItmuchAdminApplication {
      *  · 04). 具体可以到 admin 控制台界面使用
      *          特殊记录一个 Logger 菜单 ，可以在控制台动态修改工程的日志级别
      *
+     *  JVM监控
+     *  · Spring Boot Actuator : metrics 、 heapdump 、 threaddump
+     *  · java 自带的 JVM 监控工具 : jconsole 、 jvisualvm
+     *
+     *  日志监控
+     *  · ELK : Elasticsearch + Logstash + kibana
+     *      架构图查看：ELK.jpg
+     *  · Spring Cloud Sleuth使用ELK收集分析日志
+     *      ~ 手记：https://www.imooc.com/article/291751
      */
 
 
